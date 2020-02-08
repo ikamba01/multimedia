@@ -1,0 +1,37 @@
+body {
+    background-color: coral;
+    margin: 0;
+    padding: 0;
+}
+
+.video {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.video p:first-child {
+    width: 15vw;
+    margin-right: 100px;
+}
+
+.video p:nth-child(2) {
+    width: 15vw;
+    height: 15vw;
+    margin-bottom: 50px;
+}
+
+.video p:nth-child(3) {
+    width: 15vw;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1em;
+    font-family: 'Cinzel', serif;
+}
+
+.image {
+    display: flex;
+    justify-content: space-evenly;
+}
